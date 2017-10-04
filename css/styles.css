@@ -2,6 +2,15 @@
   width: 100%;
 }
 
+nav {
+  width: 20%;
+  float: right;
+  height: 100vh;
+  background-color: #5f0713;
+  position: fixed;
+  padding-left: 20px;
+}
+
 nav a {
   color: #f3c055;
   float: right;
@@ -13,27 +22,52 @@ nav a:before {
   color: #f3c055;
 }
 
-nav {
-  float: right;
-  height: 100vh;
-  width: 20%;
-  background-color: #5f0713;
-  position: fixed;
+nav a:hover {
+  color: black;
+}
+
+#logo {
+  width: 200px;
+  padding-bottom: 50px;
+}
+
+.fa-home {
   padding-left: 20px;
-}
-
-.container {
-  width: 75%;
-  margin: 0;
-  padding: 0;
-}
-
-#home {
   color: #f3c055;
   font-size: 20px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-bottom: 60px;
-  list-style-type: none;
+}
+
+.fa-address-book-o {
+  padding-left: 20px;
+  color: #f3c055;
+  font-size: 20px;
+}
+
+.fa-user-plus {
+  padding-left: 20px;
+  color: #f3c055;
+  font-size: 20px;
+}
+
+#categories {
+  padding-bottom: 5px;
+  font-size: 30px;
+  color: black;
+  padding-left: 18px;
+  padding-top: 50px;
+}
+
+h2 {
+  color: black;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.btn {
+  width: 170px;
+  background-color: #f3c055;
+  margin: 3px;
+  text-align: center;
 }
 
 .icons {
@@ -62,59 +96,33 @@ nav {
   padding-right: 30px;
 }
 
-#logo {
-  width: 200px;
-  padding-bottom: 50px;
+.container {
+  width: 80%;
+  float: right;
+  margin: 0;
+  padding: 0;
 }
+
+
+/*.main {
+  width: 80%;
+}*/
 
 #banner {
   height: 100vh;
 }
 
-.fa-home {
-  padding-left: 20px;
+#home {
   color: #f3c055;
   font-size: 20px;
-}
-
-nav a:hover {
-  color: black;
-}
-
-.fa-address-book-o {
-  padding-left: 20px;
-  color: #f3c055;
-  font-size: 20px;
-}
-
-.fa-user-plus {
-  padding-left: 20px;
-  color: #f3c055;
-  font-size: 20px;
-}
-
-.btn {
-  width: 170px;
-  background-color: #f3c055;
-  margin: 3px;
-  text-align: center;
-}
-
-#categories {
-  padding-bottom: 5px;
-  font-size: 30px;
-  color: black;
-  padding-left: 15px;
-  padding-top: 50px;
-}
-
-h2 {
-  color: black;
-  text-align: right;
-  padding-right: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 60px;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .jumbotron {
+  width: 80%;
   padding: 15px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   margin-left: 400px;
@@ -123,6 +131,7 @@ h2 {
 }
 
 .footer {
+  width: 80%;
   background-color: #f3c057;
   padding-top: 50px;
   padding-bottom: 50px;
