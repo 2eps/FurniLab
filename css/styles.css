@@ -172,8 +172,13 @@ h2 {
 
 /*style for OUR TEAM PAGE*/
 
-#team {
+.teampage {
   width: 80%;
+  float: right;
+}
+
+#team {
+  width: 100%;
   float: right;
 }
 
@@ -184,6 +189,24 @@ h2 {
   text-shadow: 2px;
   color: #5f0713;
 }
+
+#team1 {
+  width: 200px;
+  float: right;
+}
+
+
+/*.team2 {
+  width: 100px;
+}
+
+.team3 {
+  width: 100px;
+}
+
+.team4 {
+  width: 100px;
+}*/
 
 
 /*.teampage {
