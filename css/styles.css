@@ -1,125 +1,119 @@
-.frontpage {
-  width: 100%;
-}
+      .frontpage {
+      width: 100%;
+    }
 
-nav {
-  width: 20%;
-  float: right;
-  height: 100vh;
-  background-color: #5f0713;
-  position: fixed;
-  padding-left: 20px;
-}
+    nav {
+      width: 20%;
+      float: right;
+      height: 100vh;
+      background-color: #5f0713;
+      position: fixed;
+      padding-left: 20px;
+    }
 
-nav a {
-  color: #f3c055;
-  float: right;
-  padding-right: 30px;
-  padding-bottom: 5px;
-}
+    nav a {
+      color: #f3c055;
+      float: right;
+      padding-right: 30px;
+      padding-bottom: 5px;
+    }
 
-nav a:before {
-  color: #f3c055;
-}
+    nav a:before {
+      color: #f3c055;
+    }
 
-nav a:hover {
-  color: black;
-}
+    nav a:hover {
+      color: black;
+    }
 
-#logo {
-  width: 200px;
-  padding-bottom: 50px;
-}
+    #logo {
+      width: 200px;
+      padding-bottom: 50px;
+    }
 
-#home {
-  color: #f3c055;
-  font-size: 20px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-bottom: 60px;
-  list-style-type: none;
-  text-decoration: none;
-}
+    #home {
+      color: #f3c055;
+      font-size: 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      padding-bottom: 60px;
+      list-style-type: none;
+      text-decoration: none;
+    }
 
-.fa-home {
-  padding-left: 20px;
-  color: #f3c055;
-  font-size: 20px;
-}
+    .fa-home {
+      padding-left: 20px;
+      color: #f3c055;
+      font-size: 20px;
+    }
 
-.fa-address-book-o {
-  padding-left: 20px;
-  color: #f3c055;
-  font-size: 20px;
-}
+    .fa-address-book-o {
+      padding-left: 20px;
+      color: #f3c055;
+      font-size: 20px;
+    }
 
-.fa-user-plus {
-  padding-left: 20px;
-  color: #f3c055;
-  font-size: 20px;
-}
+    .fa-user-plus {
+      padding-left: 20px;
+      color: #f3c055;
+      font-size: 20px;
+    }
 
-#categories {
-  padding-bottom: 5px;
-  font-size: 30px;
-  color: black;
-  padding-left: 18px;
-  padding-top: 50px;
-}
+    #categories {
+      padding-bottom: 5px;
+      font-size: 30px;
+      color: black;
+      padding-left: 18px;
+      padding-top: 50px;
+    }
 
-h2 {
-  color: black;
-  text-align: right;
-  padding-right: 30px;
-}
+    h2 {
+      color: black;
+      text-align: right;
+      padding-right: 30px;
+    }
 
-.btn {
-  width: 170px;
-  background-color: #f3c055;
-  margin: 3px;
-  text-align: center;
-}
+    .btn {
+      width: 170px;
+      background-color: #f3c055;
+      margin: 3px;
+      text-align: center;
+    }
 
-.icons {
-  list-style-type: none;
-  font-size: 20px;
-  display: flex;
-  padding-top: 40px;
-  color: #f3c055;
-  text-align: center;
-}
+    .icons {
+      list-style-type: none;
+      font-size: 20px;
+      display: flex;
+      padding-top: 40px;
+      color: #f3c055;
+      text-align: center;
+    }
 
-.fa-twitter {
-  padding-right: 30px;
-  padding-left: 0px;
-}
+    .fa-twitter {
+      padding-right: 30px;
+      padding-left: 0px;
+    }
 
-.fa-facebook {
-  padding-right: 30px;
-}
+    .fa-facebook {
+      padding-right: 30px;
+    }
 
-.fa-github {
-  padding-right: 30px;
-}
+    .fa-github {
+      padding-right: 30px;
+    }
 
-.fa-envelope {
-  padding-right: 30px;
-}
-
-
-/*.container {
+    .fa-envelope {
+      padding-right: 30px;
+    }
+    /*.container {
   width: 80%;
   float: right;
   margin: 0;
   padding: 0;
 }*/
-
-
-/*.main {
+    /*.main {
   width: 80%;
 }*/
-
-
-/*#banner {
+    /*#banner {
   height: 100vh;
 }
 
@@ -144,75 +138,82 @@ h2 {
   color: white;
 }*/
 
-#tagline {
-  font-size: 50px;
-  padding-bottom: 20px;
-  font-family: 'Tangerine', cursive;
-  color: #5f0713;
-}
+    #tagline {
+      font-size: 50px;
+      padding-bottom: 20px;
+      font-family: 'Tangerine', cursive;
+      color: #5f0713;
+    }
 
-.footer {
-  background-color: #f3c057;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: white;
-}
+    .footer {
+      background-color: #f3c057;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: white;
+    }
 
-.copyright {
-  color: #5f0713;
-  list-style-type: none;
-  font-size: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+    .copyright {
+      color: #5f0713;
+      list-style-type: none;
+      font-size: 15px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 
-.copyright a {
-  color: black;
-}
+    .copyright a {
+      color: black;
+    }
+    /*style for OUR TEAM PAGE*/
 
+    .teampage {
+      width: 80%;
+      float: right;
+    }
 
-/*style for OUR TEAM PAGE*/
+    #team {
+      width: 100%;
+      float: right;
+      padding-bottom: 50px;
+    }
 
-.teampage {
-  width: 80%;
-  float: right;
-}
+    #awesome-team {
+      font-size: 50px;
+      font-family: 'Tangerine', cursive;
+      text-align: center;
+      text-shadow: 2px;
+      color: #5f0713;
+    }
 
-#team {
-  width: 100%;
-  float: right;
-  padding-bottom: 50px;
-}
+    #team1 {
+      width: 250px;
+      float: right;
+    }
 
-#awesome-team {
-  font-size: 50px;
-  font-family: 'Tangerine', cursive;
-  text-align: center;
-  text-shadow: 2px;
-  color: #5f0713;
-}
+    #profile {
+      padding-left: 80px;
+      padding-right: 180px;
+      color: #5f0713;
+      text-align: center;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 
-#team1 {
-  width: 250px;
-  float: right;
-}
+    h3 {
+      text-align: center;
+      color: #f3c057;
+      font-family: 'Tangerine', cursive;
+      font-size: 40px;
+    }
+    /*style for CONTACT PAGE*/
 
-#profile {
-  padding-left: 80px;
-  padding-right: 180px;
-  color: #5f0713;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+    .contactpage {
+      width: 80%;
+      float: right;
+    }
 
-h3 {
-  text-align: center;
-  color: #f3c057;
-  font-family: 'Tangerine', cursive;
-  font-size: 40px;
-}
-
-
-/*.team2 {
+    #contact {
+      width: 100%;
+      float: right;
+      padding-bottom: 50px;
+      /*.team2 {
   width: 100px;
 }
 
@@ -223,139 +224,106 @@ h3 {
 .team4 {
   width: 100px;
 }*/
-
-
-/*.teampage {
+      /*.teampage {
   width: 80%;
   float: right;
 }*/
-
-
-/*end of Dr Nor code*/
-
-
-/*Beginning of Malik code*/
-
-
-/*#logo {
+      /*end of Dr Nor code*/
+      /*Beginning of Malik code*/
+      /*#logo {
   height: 100px;
   width: 200px;
 }*/
-
-
-/*right page style*/
-
-.right-page {
+      /*right page style*/
+      /*.right-page {
   width: 80%;
   float: right;
-}
-
-
-/*.left-page{
+}*/
+      /*.left-page{
   width: 20%;
   float: left;
   background-color: #5f0713;
   position: fixed;
 }*/
-
-
-/*Products style*/
-
-.col-md-3 {
-  background-color: black;
-  padding: 30px 30px 30px 30px;
-  margin: 10px 10px 10px 10px;
-  height: 300px;
-  width: 246px;
-}
-
-.carousel-inner {
-  height: 30%;
-}
-
-
-/*testimonial*/
-
-.col-md-12 {
-  background-image: url(../img/background.png);
-  background-attachment: fixed;
-  color: white;
-}
-
-
-/* Carousel */
-
-#quote-carousel {
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-  /* Control buttons  */
-  /* Previous button  */
-  /* Next button  */
-  /* Changes the position of the indicators */
-  /* Changes the color of the indicators */
-}
-
-#quote-carousel .carousel-control {
-  background: none;
-  color: #CACACA;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-
-#quote-carousel .carousel-control.left {
-  left: -60px;
-}
-
-#quote-carousel .carousel-control.right {
-  right: -60px;
-}
-
-#quote-carousel .carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-
-#quote-carousel .carousel-indicators li {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  cursor: pointer;
-  border: 4px solid #CCC;
-  border-radius: 50px;
-  opacity: 0.4;
-  overflow: hidden;
-  transition: all 0.4s;
-}
-
-#quote-carousel .carousel-indicators .active {
-  background: #333333;
-  width: 80px;
-  height: 80px;
-  border-radius: 100px;
-  border-color: #f3c055;
-  opacity: 1;
-  overflow: hidden;
-}
-
-.carousel-inner {
-  min-height: 220px;
-}
-
-.item blockquote {
-  border-left: none;
-  margin: 0;
-}
-
-.item blockquote p:before {
-  content: "\f10d";
-  font-family: 'Fontawesome';
-  float: left;
-  margin-right: 10px;
-}
-
-.name {
-  color: #f3c055;
-}
+      /*Products style*/
+      .col-md-3 {
+        background-color: black;
+        padding: 30px 30px 30px 30px;
+        margin: 10px 10px 10px 10px;
+        height: 300px;
+        width: 246px;
+      }
+      .carousel-inner {
+        height: 30%;
+      }
+      /*testimonial*/
+      .col-md-12 {
+        background-image: url(../img/background.png);
+        background-attachment: fixed;
+        color: white;
+      }
+      /* Carousel */
+      #quote-carousel {
+        padding: 0 10px 30px 10px;
+        margin-top: 30px;
+        /* Control buttons  */
+        /* Previous button  */
+        /* Next button  */
+        /* Changes the position of the indicators */
+        /* Changes the color of the indicators */
+      }
+      #quote-carousel .carousel-control {
+        background: none;
+        color: #CACACA;
+        font-size: 2.3em;
+        text-shadow: none;
+        margin-top: 30px;
+      }
+      #quote-carousel .carousel-control.left {
+        left: -60px;
+      }
+      #quote-carousel .carousel-control.right {
+        right: -60px;
+      }
+      #quote-carousel .carousel-indicators {
+        right: 50%;
+        top: auto;
+        bottom: 0px;
+        margin-right: -19px;
+      }
+      #quote-carousel .carousel-indicators li {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        cursor: pointer;
+        border: 4px solid #CCC;
+        border-radius: 50px;
+        opacity: 0.4;
+        overflow: hidden;
+        transition: all 0.4s;
+      }
+      #quote-carousel .carousel-indicators .active {
+        background: #333333;
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        border-color: #f3c055;
+        opacity: 1;
+        overflow: hidden;
+      }
+      .carousel-inner {
+        min-height: 220px;
+      }
+      .item blockquote {
+        border-left: none;
+        margin: 0;
+      }
+      .item blockquote p:before {
+        content: "\f10d";
+        font-family: 'Fontawesome';
+        float: left;
+        margin-right: 10px;
+      }
+      .name {
+        color: #f3c055;
+      }
