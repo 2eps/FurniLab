@@ -191,8 +191,22 @@ h2 {
 }
 
 #team1 {
-  width: 200px;
+  width: 250px;
   float: right;
+}
+
+#profile {
+  padding-left: 80px;
+  padding-right: 180px;
+  color: #5f0713;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #f3c057;
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
 }
 
 
